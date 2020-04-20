@@ -1,0 +1,122 @@
+.btn {
+    background: #ec5b53;
+    padding: 27px 44px;
+    text-transform: capitalize;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    -moz-user-select: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#description {
+    margin-top: 30px
+}
+
+#greeting {
+    color: #ec5b53;
+    font-size: 22px;
+    margin-bottom: 15px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Rufina", serif;
+    color: #002d5b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+    line-height: 1.1;
+    font-size: 60px;
+}
+
+.jumbotron {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background: #E1E5E8;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+#navbar {
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    min-height: 80px;
+    width: 100%;
+    transition: top 0.3s;
+    /* display: grid; */
+    /* grid-template-columns: 2fr 1fr; */
+}
+
+ul {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000019;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+    color: #ec5b53;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ec5b53;
+}
+
+#navbar .btn {
+    padding: 27px 30px;
+}
+
+p {
+    font-family: "Rubik", sans-serif;
+    color: #464d65;
+    line-height: 30px;
+    width: 60%;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    h1, h2, h3, h4, h5 {
+        font-size: 35px;
+    }
+    .jumbotron {
+        margin-top: 50px;
+    }
+    .name {
+        font-size: 40px;
+    }
+    p {
+        font-size: 15px;
+        width: 100%;
+    }
+}

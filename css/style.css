@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .btn {
     background: #ec5b53;
     padding: 27px 44px;
@@ -42,9 +46,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     text-transform: normal;
     line-height: 1.1;
-    font-size: 60px;
 }
 
+.hero-element  #subtitle {
+    font-size: 60px;
+}
 .jumbotron {
     height: 100vh;
     display: flex;
@@ -81,10 +87,6 @@ ul {
     font-weight: 600;
     transition: 0.3s;
     margin: 0px 20px
-}
-
-.navbar-light .navbar-nav .nav-link:active {
-    color: #ec5b53;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {

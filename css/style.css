@@ -113,7 +113,7 @@ p {
     .jumbotron {
         margin-top: 50px;
     }
-    .name {
+    .name, .hero-element  #subtitle {
         font-size: 40px;
     }
     p {

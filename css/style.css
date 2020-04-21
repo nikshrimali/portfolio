@@ -172,12 +172,14 @@ ul {
     .jumbotron {
         margin-top: 50px;
     }
+    .jumbotron p {
+        width: 100%;
+    }
     .name, .hero-element #subtitle {
         font-size: 40px;
     }
     p {
         font-size: 15px;
-        width: 100%;
     }
     #about {
         height: 100%;

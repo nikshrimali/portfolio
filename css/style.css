@@ -336,7 +336,7 @@ ul {
         justify-content: space-around;
     }
     footer a {
-        font-size: 14px;
+        font-size: 10px;
     }
     .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
         color: #ec5b53;

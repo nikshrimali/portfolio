@@ -21,7 +21,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hover-min.css">
-
+    <link rel="icon" href="assets/favicon.png">
     <script src="scripts/navbar-animate.js"></script>
     <title>Naman Shrimali</title>
 </head>
@@ -41,16 +41,16 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Experience <span class="sr-only">(current)</span></a>
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#jobs">Experience <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#">Work <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                 </li>
                 <div class="hero__btn">
@@ -106,18 +106,73 @@
                 <ul class="skills">
                     <li>Angular 9</li>
                     <li>Vue.js</li>
-                    <li>JavaScript (ES6+)</li>   
+                    <li>JavaScript (ES6+)</li>
                     <li>Java 8</li>
                     <li>Spring Boot</li>
                     <li>Node.js</li>
                     <li>Microservices architecture</li>
-                    <li>Spring Cloud and Security</li>      
                     <li>Docker</li>
+                    <li>Spring Cloud and Security</li>
                     <li>HTML &amp; (S)CSS / SASS</li>
 
                 </ul>
             </div>
             <div class="image"><img class="sepia" src="assets/IMG_20181229_103519.jpg"></div>
+        </div>
+    </section>
+
+
+    <section id="jobs">
+        <h1>Where I've Worked</h1>
+        <div class="row history">
+            <div class="company">
+                <div class="nav nav-pills" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                        aria-controls="v-pills-home" aria-selected="true">IBM</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Stackroute</a>
+                </div>
+            </div>
+            <div class="role">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <h4>Associate Software Engineer <span>@ IBM</span></h4>
+                        <p>June 2019 - Present</p>
+                        <ul>
+                            <li>
+                                Developed various Spring Boot Microservices, cached data with Redis, and deployed using
+                                Jenkins CI/CD pipelines
+                            </li>
+                            <li>
+                                Used SonarQube for continuous inspection of code quality and to keep in check code
+                                coverage, bugs, code smells, and security vulnerabilities
+                            </li>
+                            <li>
+                                Clients included Westpac, Australia
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <h4>Trainee Engineer <span>@ Stackroute</span></h4>
+                        <p>July - November 2019</p>
+                        <ul>
+                            <li>
+                                Designed and developed a product management system which enabled agile team
+                                collaboration on kanban framework, manage product development in epics, user stories and
+                                sprints.
+                            </li>
+                            <li>
+                                Worked on angular, spring boot using microservice architecture design pattern, secured
+                                with OAuth2.0, managed cloud with Netflix Eureka components, containerized the app using
+                                docker and deployed using Jenkins CI/CD pipeline
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 

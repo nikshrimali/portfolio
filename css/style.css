@@ -4,11 +4,11 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: "Rufina", serif;
     color: #002d5b;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     font-style: normal;
     font-weight: 500;
     text-transform: normal;
@@ -19,7 +19,6 @@ p {
     font-family: "Rubik", sans-serif;
     color: #464d65;
     font-size: 16px;
-    margin-bottom: 30px;
     text-align: justify;
 }
 
@@ -29,7 +28,7 @@ span {
 
 /* ids */
 
-#about {
+#about{
     height: 100vh;
     max-width: 1000px;
     display: flex;
@@ -77,23 +76,46 @@ span {
     font-size: 22px;
     margin-bottom: 15px
 }
-
-/* classes */
-.about-me .skills {
-    padding: 0px;
-    list-style: outside none none;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 240px));
-    line-height: 30px;
+#jobs {
+    height: 100vh;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;  
+    margin: 0px auto;
 }
-.about-me .skills li::before {
-    content: "\2022"; 
-    color: #ec5b53; 
-    font-weight: bold; /* If you want it to be bold */
-    display: inline-block; /* Needed to add space between the bullet and the text */
-    width: 1em; /* Also needed for space (tweak if needed) */
-    margin-left: -1em; /* Also needed for space (tweak if needed) */
-  }
+
+#jobs .history {
+    height: 40%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#jobs ul li {
+    margin-bottom: 15px;
+}
+#jobs .nav-pills .nav-link {
+    color: #000;
+    background: none
+}
+
+#jobs .nav-pills .nav-link .active {
+    color: red;
+}
+/* classes */
+
+ul {
+    list-style: outside;
+    line-height: 30px;
+    padding: 0px;
+    margin-left: 15px;
+}
+.about-me .skills {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
 
 .btn {
     background: #ec5b53;
@@ -133,9 +155,12 @@ span {
     text-align: left;
     background: #E1E5E8;
 }
-
+.jumbotron h1 {
+    margin-bottom: 15px;
+}
 .jumbotron p {
     line-height: 30px;
+    margin-bottom: 30px;
     width: 60%;
 }
 
@@ -176,9 +201,12 @@ span {
 }
 
 @media (max-width: 767px) {
-    h1, h2, h3, h4, h5 {
+    h1, h2, h3{
         font-size: 35px;
         margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 20px;
     }
     .jumbotron {
         margin-top: 50px;
@@ -208,5 +236,10 @@ span {
         border-radius: 5px;
         max-width: 225px;
         height: auto;
+    }
+    #jobs .history {
+        display: flex;
+        flex-direction: row;
+        height: 75%;
     }
 }

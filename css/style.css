@@ -237,9 +237,15 @@ ul {
         max-width: 225px;
         height: auto;
     }
+    #jobs .history .company {
+        margin-bottom: 15px;
+    }
     #jobs .history {
         display: flex;
         flex-direction: row;
-        height: 75%;
+        height: 100vw;
+    }
+    #jobs .nav-pills .nav-link {
+        padding: 0px 15px 5px 0px;
     }
 }

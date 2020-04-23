@@ -96,13 +96,15 @@ span {
 #jobs ul li {
     margin-bottom: 15px;
 }
-#jobs .nav-pills .nav-link {
-    color: #000;
-    background: none
-}
 
-#jobs .nav-pills .nav-link .active {
-    color: red;
+.nav-pills .nav-link {
+    border-radius: 0px;
+    color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ec5b53;
+    border-left: 3px solid;
+    background-color: white;
 }
 /* classes */
 
@@ -237,15 +239,25 @@ ul {
         max-width: 225px;
         height: auto;
     }
+    #jobs {
+        padding-top: 30px;
+        height: 100vh;
+        display: block;
+    }
     #jobs .history .company {
         margin-bottom: 15px;
     }
     #jobs .history {
         display: flex;
         flex-direction: row;
-        height: 100vw;
     }
     #jobs .nav-pills .nav-link {
         padding: 0px 15px 5px 0px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: #ec5b53;
+        border-left: 0px;
+        border-bottom: 3px solid;
+        background-color: white;
     }
 }

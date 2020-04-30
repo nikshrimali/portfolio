@@ -286,8 +286,8 @@ ul {
     h4 {
         font-size: 20px;
     }
-    section {
-        margin: 0px 10px
+    section #about, #jobs, #work{
+        margin: 0px 
     }
     .jumbotron {
         margin-top: 50px;

@@ -321,7 +321,6 @@ ul {
     }
     #jobs {
         padding-top: 30px;
-        height: 100vh;
         display: block;
     }
     #jobs .history .company {

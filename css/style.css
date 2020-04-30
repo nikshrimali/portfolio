@@ -150,6 +150,7 @@ ul {
 /* classes */
 
 .about-me .skills {
+    width: 100%;
     display: grid;
     grid-template-columns: 3fr 2fr;
 }
@@ -277,13 +278,16 @@ ul {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     h1, h2, h3 {
         font-size: 35px;
         margin-bottom: 20px;
     }
     h4 {
         font-size: 20px;
+    }
+    section {
+        margin: 0px 10px
     }
     .jumbotron {
         margin-top: 50px;
@@ -310,6 +314,7 @@ ul {
         align-items: center;
     }
     #about img {
+        margin-top: 50px;
         border-radius: 5px;
         max-width: 225px;
         height: auto;

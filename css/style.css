@@ -191,7 +191,7 @@ ul {
 }
 
 .hero-element #subtitle {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .jumbotron {
@@ -295,8 +295,11 @@ ul {
     .jumbotron p {
         width: 100%;
     }
-    .name, .hero-element #subtitle {
+    .name {
         font-size: 40px;
+    }
+    .hero-element #subtitle {
+        font-size: 30px;
     }
     p {
         font-size: 15px;
@@ -330,9 +333,13 @@ ul {
         display: flex;
         flex-direction: row;
     }
-    #jobs .nav-pills .nav-link {
-        padding: 0px 15px 5px 0px;
+    #jobs .history .company {
+        padding: 20px 0px;
     }
+    #jobs .nav-pills .nav-link {
+        padding: 0px 15px 5px 15px;
+    }
+ 
     footer {
         height: 70px;
         display: flex;

@@ -107,7 +107,8 @@ ul {
     transition: transform .5s;
 }
 .card a {
-    color: #000019;
+    color: #035cb4;
+    text-decoration: none;
 }
 .card::after {
       position: absolute;

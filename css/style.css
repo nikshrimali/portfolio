@@ -94,14 +94,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-right: 50px;
 }
-
-.about-me .image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .card {
     cursor: default;
     transition: transform .5s;

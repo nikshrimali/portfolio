@@ -94,7 +94,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-right: 50px;
+
+    /* padding-right: 50px; */
 }
 .card {
     cursor: default;
@@ -215,7 +216,6 @@ ul {
 }
 
 .hero-element #greeting {
-    color: #ec5b53;
     font-size: 22px;
     margin-bottom: 15px
 }
@@ -238,7 +238,7 @@ ul {
     margin-bottom: 15px;
 }
 
-.jumbotron p {
+.jumbotron #greeting {
     line-height: 30px;
     margin-bottom: 30px;
     width: 60%;
@@ -326,9 +326,7 @@ ul {
     .jumbotron {
         margin-top: 50px;
     }
-    .jumbotron p {
-        width: 100%;
-    }
+
     .name {
         font-size: 40px;
     }
